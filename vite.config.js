@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   root: resolve(__dirname, "src/"),
   plugins: [htmlPurge()],
+  publicDir: "../assets",
   build: {
     outDir: "../dist",
     emptyOutDir: true,

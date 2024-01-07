@@ -10,60 +10,216 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="/sass/main.scss">
-  <title>Website Starter Template</title>
+  <title>Chef Site</title>
 </head>
 
 <body>
-  <h1>hello</h1>
 
-  <body>
-    <section class="section | bg-neutral-200">
-      <header class="section-heading">
-        <h2 class="fs-800">Section title</h2>
-        <p class="fs-600 uppercase">Subtitle here</p>
-      </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae explicabo mollitia, assumenda possimus illum
-        maxime? Voluptate, impedit. Aspernatur quas voluptas, labore animi delectus corrupti ab deleniti asperiores,
-        veritatis velit quidem.
-      </p>
-      <!-- more content here -->
+  <header class="primary-header | bg-neutral-900 margin-block-start-24">
+    <a href="index.html"><img class=" logo mx-auto" logo src="/logo.svg" alt="Chef John Wellington"></a>
+    <nav class="primary-navigation margin-block-start-24">
+      <ul class="flex-group mx-auto">
+        <li><a href="#about">About</a></li>
+        <li><a href="#meals">Meals</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero | bg-neutral-900 clr-neutral-100 text-center">
+      <div class="container">
+        <h1 class="fs-900 ff-accent  margin-block-end-48">Homecooked meals delivered straight to your door</h1>
+        <div class=" flex-group mx-auto">
+          <button class="button" data-type="accent">Place Order</button>
+          <a href="#about" class="button" data-type="outline">More Info</a>
+        </div>
+      </div>
     </section>
 
-    <section class="text-center section | bg-neutral-900 clr-neutral-100">
-      <header class="section-heading" data-decoration="true">
-        <h2 class="clr-primary-400 fs-800">Section title</h2>
-        <p class="fs-600 uppercase">Subtitle here</p>
-      </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae explicabo mollitia, assumenda possimus illum
-        maxime? Voluptate, impedit. Aspernatur quas voluptas, labore animi delectus corrupti ab deleniti asperiores,
-        veritatis velit quidem.
-      </p>
-      <!-- more content here -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <picture>
+              <source srcset="/about.avif" type="image/avif">
+              <source srcset="/about.webp" type="image/webp">
+              <img class="shift-up box-shadow-1" src="/about.jpg"
+                alt="several plates of food seen from above on a white table, some with figs and basil and others with grapefruit and sliced bananas with a brown sauce on top">
+            </picture>
+          </div>
+          <div class="flow">
+            <header class="section-heading">
+              <h2 class="fs-800 ff-accent clr-primary-500">This is a nice big heading</h2>
+              <p class="fs-600 uppercase">This is a nice big heading</p>
+            </header>
+            <p class="lead">This introduces the following text</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+              pretium nisi a
+              rhoncus posuere.</p>
+            <p>Ut posuere mauris nisl, sed consequat orci ultrices ac. Fusce et elit et nisl eleifend hendrerit. Nulla
+              ac aliquam
+              mauris. Aenean quam lacus, auctor eu lacus vitae, egestas elementum turpis. Morbi sed justo justo.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    <body>
-      <section class="section | bg-neutral-200">
-        <header class="section-heading">
-          <h2 class="fs-800">Section title</h2>
-          <p class="fs-600 uppercase">Subtitle here</p>
+    <section class="section | bg-neutral-200 text-center">
+      <div class="container">
+        <header class="section-heading" data-decoration="true">
+          <h2 class="fs-800 ff-accent clr-primary-500">
+            This is a nice big heading
+          </h2>
+          <p class="fs-600 uppercase">This is a subhead which mentions some interesting things</p>
         </header>
 
-        <div class="even-columns">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos assumenda atque est doloribus quam expedita
-            facilis accusamus animi, reprehenderit pariatur ducimus magni ipsa quae quibusdam ut deleniti repellendus
-            rem dolore!</p>
-          <p>Quae deleniti fugiat id odio, exercitationem voluptates illo nam tempore rem inventore ipsa aspernatur
-            iusto itaque ex quod nemo in obcaecati provident alias. Eligendi, eaque. Rem reiciendis error officia
-            placeat.</p>
-          <p>Beatae inventore facere, incidunt accusamus architecto excepturi! Omnis eveniet tempora architecto iste
-            tenetur culpa aliquam et est, alias quo aperiam assumenda temporibus explicabo, voluptatum aspernatur facere
-            non? Veniam, sapiente itaque.</p>
-        </div>
-      </section>
+        <div class="grid-auto-fit">
+          <div>
+            <h3 class="fs-500 fw-bold clr-netural-900">This is a subtitle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+              pretium nisi a rhoncus posuere.</p>
+          </div>
+          <div>
+            <h3 class="fs-500 fw-bold clr-netural-900">This is a subtitle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+              pretium nisi a rhoncus posuere.</p>
+          </div>
+          <div>
+            <h3 class="fs-500 fw-bold clr-netural-900">This is a subtitle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+              pretium nisi a rhoncus posuere.</p>
+          </div>
+          <div>
+            <h3 class="fs-500 fw-bold clr-netural-900">This is a subtitle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+              pretium nisi a rhoncus posuere.</p>
+          </div>
 
-      <script type="module" src="/main.js"></script>
-    </body>
-  </body>
+        </div>
+      </div>
+    </section>
+
+    <section class="clr-neutral-100" id="meals">
+      <div class="even-columns">
+        <div>
+          <figure class="interactive-figure">
+            <picture>
+              <source srcset="/meal-01.avif" type="image/avif">
+              <source srcset="/meal-01.webp" type="image/webp">
+              <img src="/meal-01.jpg" loading="lazy"
+                alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it">
+            </picture>
+            <figcaption>
+              <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure class="interactive-figure">
+            <picture>
+              <source srcset="/meal-02.avif" type="image/avif">
+              <source srcset="/meal-02.webp" type="image/webp">
+              <img src="/meal-02.jpg" loading="lazy"
+                alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it">
+            </picture>
+            <figcaption>
+              <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <figure class="interactive-figure">
+            <picture>
+              <source srcset="/meal-03.avif" type="image/avif">
+              <source srcset="/meal-03.webp" type="image/webp">
+              <img src="/meal-03.jpg" loading="lazy"
+                alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it">
+            </picture>
+            <figcaption>
+              <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <h2 class="clr-primary-500 ff-accent">What our clients are saying about us</h2>
+
+        <div class="even-columns">
+          <div class="card | box-shadow-1">
+            <picture>
+              <source srcset="/testimonial-01.avif" type="image/avif">
+              <source srcset="/testimonial-01.webp" type="image/webp">
+              <img src="/testimonial-01.jpg" alt="A man standing outside, smiling">
+            </picture>
+            <div class="card__body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere. Ut posuere mauris nisl, sed consequat orci ultrices ac. Fusce et elit et
+                nisl eleifend hendrerit. Nulla ac aliquam mauris. Aenean quam lacus, auctor eu lacus.</p>
+            </div>
+            <div class="testimonial__footer | padding-16 bg-neutral-200">
+              <p class="fs-500 clr-accent-500">John Deer</p>
+              <p>Manager at FoodCo.</p>
+            </div>
+          </div>
+
+          <div class="card | box-shadow-1">
+            <picture>
+              <source srcset="/testimonial-02.avif" type="image/avif">
+              <source srcset="/testimonial-02.webp" type="image/webp">
+              <img src="/testimonial-02.jpg" alt="A man standing outside, smiling">
+            </picture>
+            <div class="card__body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere. Ut posuere mauris nisl, sed consequat orci ultrices ac. Fusce et elit et
+                nisl eleifend hendrerit. Nulla ac aliquam mauris. Aenean quam lacus, auctor eu lacus.</p>
+            </div>
+            <div class="testimonial__footer | padding-16 bg-neutral-200">
+              <p class="fs-500 clr-accent-500">John Deer</p>
+              <p>Manager at FoodCo.</p>
+            </div>
+          </div>
+
+          <div class="card | box-shadow-1">
+            <picture>
+              <source srcset="/testimonial-03.avif" type="image/avif">
+              <source srcset="/testimonial-03.webp" type="image/webp">
+              <img src="/testimonial-03.jpg" alt="A man standing outside, smiling">
+            </picture>
+            <div class="card__body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas egestas dignissim. Quisque
+                pretium nisi a rhoncus posuere. Ut posuere mauris nisl, sed consequat orci ultrices ac. Fusce et elit et
+                nisl eleifend hendrerit. Nulla ac aliquam mauris. Aenean quam lacus, auctor eu lacus.</p>
+            </div>
+            <div class="testimonial__footer | padding-16 bg-neutral-200">
+              <p class="fs-500 clr-accent-500">John Deer</p>
+              <p>Manager at FoodCo.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <footer class="primary-footer section | bg-neutral-900 clr-neutral-100 text-center flow">
+      <div class="container">
+        <p class="fw-bold">Homecooked mealsdelivered straight to your door</p>
+        <p>©2022 Persronal Chef Services</p>
+        <p>555 Boulevard Anywhere, Montreal, Quebec, J1S 1S9 | 123-555-1234</p>
+      </div>
+    </footer>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
 
 </html>
