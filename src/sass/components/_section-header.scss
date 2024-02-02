@@ -1,6 +1,8 @@
 @use '../abstracts' as *;
 
-.section-heading {
+.section-header {
+
+
 
     &:has(p) {
         margin-block-end: size(36);
@@ -17,6 +19,20 @@
         height: 1px;
         background-color: currentColor;
         margin-block-start: size(36);
+
+        .text-center & {
+            margin-inline: auto;
+        }
+
+
+    }
+
+    &.text-center[data-decoration="true"] {
+        margin-inline: auto;
+    }
+
+    p {
+        max-width: 50ch;
 
         .text-center & {
             margin-inline: auto;
